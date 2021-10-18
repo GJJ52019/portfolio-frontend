@@ -7,6 +7,7 @@ function Projects(props) {
   //create function to make api call
   const getProjectsData = async () => {
     //make api call and get response
+    console.log(props.URL);
     const response = await fetch(props.URL + "projects");
     // turn response into javascript object
     const data = await response.json();
