@@ -14,7 +14,7 @@ import Projects from './pages/Projects';
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
-  const URL = "http://localhost:4000/";
+  const URL = "https://gjj52019-express-react-lab.herokuapp.com/";
 
   return (
     <div className="App">
